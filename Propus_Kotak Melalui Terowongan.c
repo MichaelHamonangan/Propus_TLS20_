@@ -27,11 +27,11 @@ int main()
                     else if (lebar[i-1]<1)
                     printf ("Error!!! Lebar kotak ke-%d tidak memenuhi syarat\n",i);
                         else if (lebar[i-1]>100)
-                        printf ("Error!!! Lebar kotak ke-%d tidak memenuhi syarat",i);
+                        printf ("Error!!! Lebar kotak ke-%d tidak memenuhi syarat\n",i);
                             else if (tinggi[i-1]<1)
-                            printf ("Error!!! Tinggi kotak ke-%d tidak memenuhi syarat",i);
+                            printf ("Error!!! Tinggi kotak ke-%d tidak memenuhi syarat\n",i);
                                 else if (tinggi[i-1]>100)
-                                printf ("Error!!! Lebar kotak ke-%d tidak memenuhi syarat",i);
+                                printf ("Error!!! Lebar kotak ke-%d tidak memenuhi syarat\n",i);
                                 else 
                                 volume[i-1]=panjang[i-1]*lebar[i-1]*tinggi[i-1];
         }
